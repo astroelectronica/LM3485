@@ -9,7 +9,7 @@
 *
 *params
 .param VIN=24
-.param ILOAD=0.42
+.param ILOAD=500m
 .param RFBU=33k
 .param RFBB=20k
 .param RADJ=24.0k
