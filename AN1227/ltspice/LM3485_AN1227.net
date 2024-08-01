@@ -8,13 +8,13 @@
 .include LM3485_AN1227.cir
 *
 *params
-.param VIN=5
-.param ILOAD=0.5
+.param VIN=24
+.param ILOAD=0.42
 .param RFBU=33k
 .param RFBB=20k
 .param RADJ=24.0k
 *
 *transient response
-.tran 0 1m 0 startup uic
+.tran 0 10m 0 startup uic
 *.backanno
 *.op
